@@ -1,20 +1,20 @@
-import string
-import random
-num = 0
-charArr = []
-answerArr = []
-alphabet = (string.ascii_uppercase)
-for char in alphabet:
-    charArr.append(char) 
-charArr[16] = "Qu"
+# import string
+# import random
+# num = 0
+# charArr = []
+# answerArr = []
+# alphabet = (string.ascii_uppercase)
+# for char in alphabet:
+#     charArr.append(char) 
+# charArr[16] = "Qu"
 
-while num < 4:
-    rando = random.randint(0,25)
-    char = charArr[rando]
-    answerArr.append(char)
-    num +=1
+# while num < 16:
+#     rando = random.randint(0,25)
+#     char = charArr[rando]
+#     answerArr.append(char)
+#     num +=1
 
-print(answerArr)
+# print(answerArr)
 # output: ['G', 'J', 'Z', 'T', 'X', 'O', 'W', 'W', 'L', 'Qu', 'A', 'H', 'V', 'Qu', 'G', 'G']
 
 
